@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Example</title>
+</head>
+<body>
+    <canvas id="myCanvas" width="200" height="200" style="border:1px solid black;"></canvas>
+    <script>
+        // Wait for the document to fully load before accessing DOM elements
+        document.addEventListener("DOMContentLoaded", function() {
+            const canvas = document.getElementById('myCanvas');
+            const ctx = canvas.getContext('2d');
+            
+            // Draw a rectangle
+            ctx.fillStyle = 'blue';
+            ctx.fillRect(50, 50, 100, 80);
+            
+            // Draw a circle
+            ctx.beginPath();
+            ctx.arc(150, 150, 30, 0, 2 * Math.PI);
+            ctx.fillStyle = 'green';
+            ctx.fill();
+            
+            // Draw a line
+            ctx.beginPath();
+            ctx.moveTo(20, 20);
+            ctx.lineTo(180, 20);
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 3;
+            ctx.stroke();
+        });
+    </script>
+</body>
+</html>
