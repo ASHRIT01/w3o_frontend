@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thematic Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Adding Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Thematic Restaurant</h1>
+        <nav>
+            <ul>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="landing" class="landing">
+        <div class="landing-content">
+            <h2>Experience a Culinary Journey</h2>
+            <p>Indulge in our exquisite dishes prepared with love and passion.</p>
+            <a href="#menu" class="btn">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <ul>
+            <li><strong>Grilled Salmon</strong><br>
+                Grilled salmon fillet served with lemon-dill sauce, roasted vegetables, and mashed potatoes.
+            </li>
+            <li><strong>Vegetable Risotto</strong><br>
+                Creamy risotto cooked with assorted vegetables, parmesan cheese, and a touch of truffle oil.
+            </li>
+            <li><strong>Beef Tenderloin Steak</strong><br>
+                Juicy beef tenderloin steak cooked to perfection, served with peppercorn sauce, sautéed mushrooms, and garlic mashed potatoes.
+            </li>
+            <li><strong>Chicken Alfredo Pasta</strong><br>
+                Fettuccine pasta tossed in a creamy alfredo sauce with grilled chicken, sun-dried tomatoes, and spinach.
+            </li>
+            <!-- Additional menu items -->
+        </ul>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Thematic Restaurant, where the aroma of freshly cooked meals meets the scent of exotic spices, inviting you to embark on a culinary adventure. Nestled in the heart of the city, our restaurant offers a unique dining experience where every dish tells a story.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>+123 456 7890</p>
+        <p>contact@thematicrestaurant.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Thematic Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
